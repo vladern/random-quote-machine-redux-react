@@ -1,0 +1,21 @@
+.QuoteContainer > .Container > .buttonsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.QuoteContainer > .Container > .quoteText {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+.QuoteContainer > .Container > .quoteText > i {
+    font-size: 1em;
+    margin-right: 0.4em;
+}
+
+.QuoteContainer > .Container > .quoteAuthor {
+    text-align: right;
+    width: 100%;
+}
